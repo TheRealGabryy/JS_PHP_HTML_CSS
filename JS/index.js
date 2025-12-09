@@ -20,6 +20,10 @@ for (let i = 0;  i < 10; i++) {
 const printAges = function () {
     console.log(`${name} ${surname} ${ages[ages.length - 1]}`);
 }
-
 printAges();
+
+var date = new Date();
+console.log(`${name} ${surname} ${ages[ages.length - 1]}`);
+printInfo();
+console.log(date.toISOString());
 

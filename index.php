@@ -8,10 +8,9 @@
     <title>First JS + PHP website</title>
 </head>
 <body>
-<p class="paragraph">
-    Hello World
+<p class="paragraph" id="testJS">
+    Test text
 </p>
-
 
 
 <script src = "JS/index.js"></script>
