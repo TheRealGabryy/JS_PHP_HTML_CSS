@@ -1,0 +1,28 @@
+:root {
+    --primary-font: Ubuntu;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 100vh;
+}
+
+.header-title {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    font-family: var(--primary-font), sans-serif;
+}
