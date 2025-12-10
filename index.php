@@ -8,9 +8,22 @@
     <title>First JS + PHP website</title>
 </head>
 <body>
-<p class="paragraph" id="testJS">
-    Test text
-</p>
+
+<header class="header">
+    <p class="paragraph" id="testJS">
+        Test text
+    </p>
+</header>
+<main class="main">
+    <p class="paragraph" id="testJS">
+        Test text
+    </p>
+</main>
+<footer class="footer">
+    <p class="paragraph" id="testJS">
+        Test text
+    </p>
+</footer>
 
 
 <script src = "JS/index.js"></script>
